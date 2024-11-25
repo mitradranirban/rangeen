@@ -1,16 +1,15 @@
-# Myfont
+# RANGEEN
 
-Short description of Demo Font. Read more about this [project](https://github.com/raphaelbastide/Unified-Font-Repository/blob/master/ABOUT.en_us.md)
+Experimental Color Font Created Using Open Source Tools only  [project](https://github.com/mitradranirban/rangeen/README.md)
 
 ## Specimen
 
-![Demo-Italic-v1.001-specimen-001](https://github.com/raphaelbastide/Unified-Font-Repository/master/documentation/images/Demo-Italic-v1.001-specimen-001.png)
+![rangeen](https://github.com/mitradranirban/rangeen/documentation/png1.png)
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at
-http://scripts.sil.org/OFL
+This license is available with a FAQ [here](https://openfontlicense.org)
 
 ## Repository Layout
 

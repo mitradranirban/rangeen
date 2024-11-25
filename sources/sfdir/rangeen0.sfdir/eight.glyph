@@ -1,0 +1,19 @@
+StartChar: eight
+Encoding: 56 56 24
+Width: 360
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+62 582 m 4
+ 62 689 88 776 120 776 c 4
+ 152 776 178 689 178 582 c 4
+ 178 475 152 388 120 388 c 4
+ 88 388 62 475 62 582 c 4
+62 194 m 0
+ 62 301 88 388 120 388 c 0
+ 152 388 178 301 178 194 c 0
+ 178 87 152 0 120 0 c 0
+ 88 0 62 87 62 194 c 0
+EndSplineSet
+EndChar

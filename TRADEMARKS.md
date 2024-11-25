@@ -1,1 +1,1 @@
-Demo is a trademark of FontStudio, Inc.
+Rangeen is a trademark of [Dr Anirban Mitra](https://fonts.atipra.in)
