@@ -1,19 +1,21 @@
 StartChar: colon
 Encoding: 58 58 25
-Width: 142
-Flags: HW
+Width: 110
+Flags: W
+HStem: 24 10<50 60> 434 10<50 60>
+VStem: 50 10<24 34 434 444>
 LayerCount: 2
 Fore
 SplineSet
-72 434 m 1
- 62 434 l 1
- 62 444 l 1
- 72 444 l 1
- 72 434 l 1
-72 24 m 1
- 62 24 l 1
- 62 34 l 1
- 72 34 l 1
- 72 24 l 1
+60 434 m 1
+ 50 434 l 1
+ 50 444 l 1
+ 60 444 l 1
+ 60 434 l 1
+60 24 m 1
+ 50 24 l 1
+ 50 34 l 1
+ 60 34 l 1
+ 60 24 l 1
 EndSplineSet
 EndChar

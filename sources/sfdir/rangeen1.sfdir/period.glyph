@@ -1,14 +1,16 @@
 StartChar: period
 Encoding: 46 46 13
-Width: 142
-Flags: HW
+Width: 110
+Flags: W
+HStem: 24 10<50 60>
+VStem: 50 10<24 34>
 LayerCount: 2
 Fore
 SplineSet
-72 24 m 1
- 62 24 l 1
- 62 34 l 1
- 72 34 l 1
- 72 24 l 1
+60 24 m 1
+ 50 24 l 1
+ 50 34 l 1
+ 60 34 l 1
+ 60 24 l 1
 EndSplineSet
 EndChar

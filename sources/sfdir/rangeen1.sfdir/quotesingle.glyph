@@ -1,14 +1,16 @@
 StartChar: quotesingle
 Encoding: 39 39 6
-Width: 307
-Flags: HW
+Width: 113
+Flags: W
+HStem: 612 121
+VStem: 50 10<622 723>
 LayerCount: 2
 Fore
 SplineSet
-152 733 m 1
- 162 723 l 1
- 159 612 l 1
- 149 622 l 1
- 152 733 l 1
+53 733 m 1
+ 63 723 l 1
+ 60 612 l 1
+ 50 622 l 1
+ 53 733 l 1
 EndSplineSet
 EndChar
