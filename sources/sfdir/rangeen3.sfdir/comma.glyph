@@ -1,7 +1,7 @@
 StartChar: comma
 Encoding: 44 44 11
-Width: 215
-Flags: W
+Width: 221
+Flags: HW
 HStem: -106 177<82 120>
 VStem: 88 62<52 69.5781> 100 71<-47.0868 46.6436>
 LayerCount: 2

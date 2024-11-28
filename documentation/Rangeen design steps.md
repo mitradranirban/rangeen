@@ -26,7 +26,7 @@ The backup layer glyphs are created by applying Expand stroke twice for outline 
 
 ![Backup-A](images/rangeen-backup-A.png)
 
-The fonts are exported in otf format and are in sources/otf folder
+The fonts are exported in ttf format and are in sources/ttf folder
 
 ### step 3
 Setup a python venv and install  svg-ot tools and nanoemoj using pip 
@@ -45,8 +45,10 @@ pip install nanoemoji
 ### step 4
 Create svg files
 ```
-$ fonts2svg -c cccccc,ff22ac,11ff90 otf/rangeen3.otf otf/rangeen2.otf otf/rangeen1.otf
-53 SVG files saved.
+$ fonts2svg -c 000088,800080,daa520 ttf/rangeen3.ttf ttf/rangeen2.ttf ttf/rangeen1.ttf 
+94 SVG files saved.
+(ot-svg) artim@ARTIMPOLY:~/devel/rangeen/sources
+
 ```
 Check the svg files created 
 
@@ -55,8 +57,8 @@ Check the svg files created
 ### step 5
 Add svg files to Fallback font to create OpenType-SVG font
 ```
-$ addsvg otf/SVGs otf/Rangeen.otf
-53 SVG glyphs were successfully added to Rangeen.otf
+$ addsvg ttf/SVGs ttf/Rangeen.ttf 
+94 SVG glyphs were successfully added to Rangeen.ttf
 ```
 ### step 6
 Create an html file to test the font  
@@ -73,149 +75,113 @@ Fallback mechanism also works in Chrome
 Add COLRv1 files to the font using nanoemoji (fails)
 
 ```
-maximum_color Rangeen.otf 
-I1126 13:10:43.411979 129499818270720 maximum_color.py:480] Generating build.ninja
-I1126 13:10:43.433130 129499818270720 ninja.py:124] ninja -C /media/artim/home/@home/artim/devel/rangeen/fonts/build
-ninja: Entering directory `/media/artim/home/@home/artim/devel/rangeen/fonts/build'
-[112/114] /media/artim/home/@home/arti...utput_file MergeSource.glyf_colr_1.ttf
-I1126 13:10:57.864236 135774422413312 baseCompiler.py:71] Pre-processing glyphs
-I1126 13:10:57.888063 135774422413312 base.py:201] Running DecomposeComponentsFilter on AnEmojiFamily-Regular
-I1126 13:10:57.888413 135774422413312 base.py:201] Running CubicToQuadraticFilter on AnEmojiFamily-Regular
-I1126 13:10:57.941685 135774422413312 cubicToQuadratic.py:46] New spline lengths: 1: 1198, 2: 2982, 3: 249, 4: 73, 5: 15, 6: 3, 7: 2
-I1126 13:10:57.941780 135774422413312 baseCompiler.py:62] Building OpenType tables
-I1126 13:10:58.053977 135774422413312 write_font.py:247] Writing MergeSource.glyf_colr_1.ttf
-I1126 13:10:58.089676 135774422413312 write_font.py:833] Wrote MergeSource.glyf_colr_1.ttf
-[113/114] /media/artim/home/@home/arti...keep_glyph_names.added_glyf_colr_1.ttf
-FAILED: Rangeen.keep_glyph_names.added_glyf_colr_1.ttf 
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/glue_together.py", line 231, in <module>
-    app.run(main)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 308, in run
-    _run_main(main, args)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
-    sys.exit(main(argv))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/glue_together.py", line 214, in main
-    _copy_colr(target, donor)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/glue_together.py", line 72, in _copy_colr
-    target_glyphs = target["glyf"].glyphs
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/fontTools/ttLib/ttFont.py", line 461, in __getitem__
-    table = self._readTable(tag)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/fontTools/ttLib/ttFont.py", line 468, in _readTable
-    data = self.reader[tag]
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/fontTools/ttLib/sfnt.py", line 109, in __getitem__
-    entry = self.tables[Tag(tag)]
-KeyError: 'glyf'
-ninja: build stopped: subcommand failed.
-Traceback (most recent call last):
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/maximum_color", line 8, in <module>
-    sys.exit(main())
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/maximum_color.py", line 510, in main
-    app.run(_run)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 308, in run
-    _run_main(main, args)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
-    sys.exit(main(argv))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/maximum_color.py", line 505, in _run
-    maybe_run_ninja(build_file)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/ninja.py", line 125, in maybe_run_ninja
-    subprocess.run(ninja_cmd, check=True)
-  File "/usr/lib/python3.10/subprocess.py", line 526, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['ninja', '-C', '/media/artim/home/@home/artim/devel/rangeen/fonts/build']' returned non-zero exit status 1.
+ja -C /media/artim/home/@home/artim/devel/rangeen/sources/ttf/build
+ninja: Entering directory `/media/artim/home/@home/artim/devel/rangeen/sources/ttf/build'
+[194/196] /media/artim/home/@home/arti...utput_file MergeSource.glyf_colr_1.ttf
+W1128 13:09:03.149280 135488490209280 glyph_reuse.py:69] affine_between failed: M-24,-246 L-23,-156 L538,-162 L537,-252 Z M156,-15 L70,-15 L70,796 L156,796 Z 
+I1128 13:09:03.229546 135488490209280 baseCompiler.py:71] Pre-processing glyphs
+I1128 13:09:03.290944 135488490209280 base.py:201] Running DecomposeComponentsFilter on AnEmojiFamily-Regular
+I1128 13:09:03.291404 135488490209280 base.py:201] Running CubicToQuadraticFilter on AnEmojiFamily-Regular
+I1128 13:09:03.360707 135488490209280 cubicToQuadratic.py:46] New spline lengths: 
+I1128 13:09:03.360882 135488490209280 baseCompiler.py:62] Building OpenType tables
+I1128 13:09:03.551567 135488490209280 write_font.py:247] Writing MergeSource.glyf_colr_1.ttf
+I1128 13:09:03.616381 135488490209280 write_font.py:833] Wrote MergeSource.glyf_colr_1.ttf
+[195/196] /media/artim/home/@home/arti...keep_glyph_names.added_glyf_colr_1.ttf
+I1128 13:09:04.119690 127514790260736 glue_together.py:223] Wrote Rangeen.keep_glyph_names.added_glyf_colr_1.ttf
+[196/196] /media/artim/home/@home/arti...h_names.added_glyf_colr_1.ttf Font.ttf
+
 ```
 
+Check tables added to font 
+```
+ ttx -l Rangeen.keep_glyph_names.added_glyf_colr_1.ttf 
+Listing table info for "Rangeen.keep_glyph_names.added_glyf_colr_1.ttf":
+    tag     checksum    length    offset
+    ----  ----------  --------  --------
+    COLR  0x84DFAC8D      5489    131760
+    CPAL  0x5CFF28B9        26    137252
+    GDEF  0x00290088        34    137280
+    OS/2  0x7D9B73B3        96       376
+    SVG   0x46000601    254864    137316
+    cmap  0xCC91A0D9       322      1988
+    gasp  0xFFFF0003         8    131752
+    glyf  0xF547F07F    112092      3076
+    head  0x28AD5671        54       252
+    hhea  0x06AC0369        36       308
+    hmtx  0xBCC235B2      1516       472
+    loca  0x17CCA9A0       762      2312
+    maxp  0x01CB0160        32       344
+    name  0x788A2600     13944    115168
+    post  0xC17D1128      2639    129112
+```
+
+
 ### step 8 
-Add CBDT tables to the font (fails)
+Add CBDT tables to the font 
+
 ```
-maximum_color --bitmaps Rangeen.otf 
-I1126 13:24:06.381427 124872750997504 maximum_color.py:480] Generating build.ninja
-I1126 13:24:06.409524 124872750997504 ninja.py:124] ninja -C /media/artim/home/@home/artim/devel/rangeen/fonts/build
-ninja: Entering directory `/media/artim/home/@home/artim/devel/rangeen/fonts/build'
-[54/59] /media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/python3 -m...yphmap_for_glyph_svgs -v 0 --output_file CBDT.glyphmap @CBDT.glyphmap.rsp
-FAILED: CBDT.glyphmap 
-/media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/python3 -m nanoemoji.write_glyphmap_for_glyph_svgs -v 0 --output_file CBDT.glyphmap @CBDT.glyphmap.rsp
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/write_glyphmap_for_glyph_svgs.py", line 68, in <module>
-    app.run(main)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 308, in run
-    _run_main(main, args)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
-    sys.exit(main(argv))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/write_glyphmap_for_glyph_svgs.py", line 34, in main
-    source_font = util.only(input_files, lambda a: a.endswith(".ttf"))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/util.py", line 35, in only
-    result = next(it)
-StopIteration
-[55/59] /media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/python3 -m...'/media/artim/home/@home/artim/devel/rangeen/fonts/Rangeen.otf' CBDT.toml
-FAILED: CBDT.toml 
-/media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/python3 -m nanoemoji.write_config_for_mergeable -v 0 --color_format cbdt '/media/artim/home/@home/artim/devel/rangeen/fonts/Rangeen.otf' CBDT.toml
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/write_config_for_mergeable.py", line 65, in <module>
-    app.run(main)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 308, in run
-    _run_main(main, args)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
-    sys.exit(main(argv))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/write_config_for_mergeable.py", line 29, in main
-    font_file = util.only(argv, lambda a: a.endswith(".ttf"))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/util.py", line 35, in only
-    result = next(it)
-StopIteration
-[56/59] /media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/python3 -m...f_colr_1.ttf --output_file Rangeen.keep_glyph_names.added_glyf_colr_1.ttf
-FAILED: Rangeen.keep_glyph_names.added_glyf_colr_1.ttf 
-/media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/python3 -m nanoemoji.glue_together -v 0 --color_table COLR --target_font Rangeen.keep_glyph_names.ttf --donor_font MergeSource.glyf_colr_1.ttf --output_file Rangeen.keep_glyph_names.added_glyf_colr_1.ttf
-Traceback (most recent call last):
-  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
-    exec(code, run_globals)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/glue_together.py", line 231, in <module>
-    app.run(main)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 308, in run
-    _run_main(main, args)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
-    sys.exit(main(argv))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/glue_together.py", line 214, in main
-    _copy_colr(target, donor)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/glue_together.py", line 72, in _copy_colr
-    target_glyphs = target["glyf"].glyphs
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/fontTools/ttLib/ttFont.py", line 461, in __getitem__
-    table = self._readTable(tag)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/fontTools/ttLib/ttFont.py", line 468, in _readTable
-    data = self.reader[tag]
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/fontTools/ttLib/sfnt.py", line 109, in __getitem__
-    entry = self.tables[Tag(tag)]
-KeyError: 'glyf'
-ninja: build stopped: subcommand failed.
-Traceback (most recent call last):
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/bin/maximum_color", line 8, in <module>
-    sys.exit(main())
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/maximum_color.py", line 510, in main
-    app.run(_run)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 308, in run
-    _run_main(main, args)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/absl/app.py", line 254, in _run_main
-    sys.exit(main(argv))
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/maximum_color.py", line 505, in _run
-    maybe_run_ninja(build_file)
-  File "/media/artim/home/@home/artim/devel/rangeen/ot-svg/lib/python3.10/site-packages/nanoemoji/ninja.py", line 125, in maybe_run_ninja
-    subprocess.run(ninja_cmd, check=True)
-  File "/usr/lib/python3.10/subprocess.py", line 526, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['ninja', '-C', '/media/artim/home/@home/artim/devel/rangeen/fonts/build']' returned non-zero exit status 1
+$ maximum_color --bitmaps Rangeen.ttf 
+I1128 13:18:13.658456 137917315936256 maximum_color.py:480] Generating build.ninja
+I1128 13:18:13.705731 137917315936256 ninja.py:124] ninja -C /media/artim/home/@home/artim/devel/rangeen/sources/ttf/build
+ninja: Entering directory `/media/artim/home/@home/artim/devel/rangeen/sources/ttf/build'
+[97/99] /media/artim/home/@home/artim/...son --output_file MergeSource.cbdt.ttf
+I1128 13:18:14.406694 137505872797696 baseCompiler.py:71] Pre-processing glyphs
+I1128 13:18:14.408693 137505872797696 base.py:201] Running DecomposeComponentsFilter on AnEmojiFamily-Regular
+I1128 13:18:14.408959 137505872797696 base.py:201] Running CubicToQuadraticFilter on AnEmojiFamily-Regular
+I1128 13:18:14.409261 137505872797696 cubicToQuadratic.py:46] New spline lengths: 
+I1128 13:18:14.409332 137505872797696 baseCompiler.py:62] Building OpenType tables
+I1128 13:18:14.418391 137505872797696 write_font.py:247] Writing MergeSource.cbdt.ttf
+I1128 13:18:14.430112 137505872797696 write_font.py:833] Wrote MergeSource.cbdt.ttf
+[98/99] /media/artim/home/@home/artim/...f --output_file Rangeen.added_cbdt.ttf
+I1128 13:18:14.939719 124869933248512 glue_together.py:223] Wrote Rangeen.added_cbdt.ttf
+[99/99] /media/artim/home/@home/artim/...s -v 0 Rangeen.added_cbdt.ttf Font.ttf
+
 ```
+Check CBDT tables added 
+
+```
+$ ttx -l Rangeen.added_cbdt.ttf 
+Listing table info for "Rangeen.added_cbdt.ttf":
+    tag     checksum    length    offset
+    ----  ----------  --------  --------
+    CBDT  0xF06D9C4E    557889    131792
+    CBLC  0x4FC5F6CB       452    689684
+    COLR  0x84DFAC8D      5489    690136
+    CPAL  0x5CFF28B9        26    695628
+    GDEF  0x00290088        34    695656
+    OS/2  0x7D9B73B3        96       408
+    SVG   0x46000601    254864    695692
+    cmap  0xCC91A0D9       322      2020
+    gasp  0xFFFF0003         8    131784
+    glyf  0xF547F07F    112092      3108
+    head  0x28AD5897        54       284
+    hhea  0x06AC0369        36       340
+    hmtx  0xBCC235B2      1516       504
+    loca  0x17CCA9A0       762      2344
+    maxp  0x01CB0160        32       376
+    name  0x788A2600     13944    115200
+    post  0xC17D1128      2639    129144
+```
+### Step 9 
+View the Font in Font Viewer 
+
+![Fontviewer](images/Rangeen-Regular.png)
+
+### Step 10 
+Create Gradient Font in FontPainter
+
+Open site [FontPainter](https://simoncozens.github.io/fontpainter/)
+
+Load base font (rangeen2.ttf) 
+![FontPainter](images/fontpainter.png)
+
+Adjust color and gradient, copy and paste to all glyphs, or adjust individually in each glyph
+
+Save font 
+
+### Step 11
+using round tripping through ttx tool, remove SVG tables from CBDT and CPAL/COLR fonts 
+
 
 
 

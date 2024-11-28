@@ -1,15 +1,15 @@
 StartChar: asterisk
 Encoding: 42 42 9
-Width: 568
+Width: 512
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-380 568 m 25
- 153 336 l 1049
-151 565 m 25
- 382 339 l 1049
-265 614 m 25
- 268 290 l 1049
+369.5 568 m 25
+ 142.5 336 l 1049
+140.5 565 m 25
+ 371.5 339 l 1049
+254.5 614 m 25
+ 257.5 290 l 1049
 EndSplineSet
 EndChar

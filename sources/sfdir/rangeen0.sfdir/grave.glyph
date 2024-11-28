@@ -1,0 +1,11 @@
+StartChar: grave
+Encoding: 96 96 63
+Width: 223
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 549 m 25
+ 173 411 l 1053
+EndSplineSet
+EndChar

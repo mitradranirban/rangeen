@@ -1,7 +1,7 @@
 StartChar: ampersand
 Encoding: 38 38 5
-Width: 449
-Flags: W
+Width: 455
+Flags: HW
 HStem: 63 70<138.338 271.756> 717 70<204.377 245.46>
 VStem: 55 71<149.951 296.321> 109 71<424.078 644> 254 71<470.057 715.203> 334 71<196.227 304.344>
 LayerCount: 2

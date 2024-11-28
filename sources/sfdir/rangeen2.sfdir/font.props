@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1732553524
-ModificationTime: 1732605927
+ModificationTime: 1732781780
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,14 +43,13 @@ HheadDOffset: 1
 OS2Vendor: 'anir'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: UnicodeBmp
-Compacted: 1
+Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 10 4
+WinInfo: 30 10 4
 BeginPrivate: 0
 EndPrivate
 EndSplineFont

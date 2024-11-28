@@ -5,6 +5,7 @@ FamilyName: rangeen
 Weight: Regular
 Copyright: Copyright (c) 2024 Dr Anirban Mitra
 UComments: "2024-11-25: Created with FontForge (http://fontforge.org)"
+FontLog: "Expand Stroke Calligraphic Brush Major Axis 70 Minor Axis 50 Angle 60 But Round "
 Version: 0.001
 ItalicAngle: 0
 UnderlinePosition: -102
@@ -21,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1732553524
-ModificationTime: 1732605905
+ModificationTime: 1732784567
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,14 +44,13 @@ HheadDOffset: 1
 OS2Vendor: 'anir'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: UnicodeBmp
-Compacted: 1
+Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 20 10 4
+WinInfo: 50 10 4
 BeginPrivate: 0
 EndPrivate
 EndSplineFont
