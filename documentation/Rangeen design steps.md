@@ -182,6 +182,9 @@ Save font
 ### Step 11
 using round tripping through ttx tool, remove SVG tables from CBDT and CPAL/COLR fonts 
 
+### Step 12 
+Compress font to woff2 format for use as web font 
+
 
 
 

@@ -1,10 +1,10 @@
 # RANGEEN
 
-Experimental Color Font Created Using Open Source Tools only  [project](https://github.com/mitradranirban/rangeen/README.md)
+Experimental Color Font Created Using Open Source Tools only  [project](https://github.com/mitradranirban/rangeen/About.en_us.md)
 
 ## Specimen
 
-![rangeen](https://github.com/mitradranirban/rangeen/documentation/png1.png)
+![rangeen](documentation/images/Rangeen-Regular.png)
 
 ## License
 
