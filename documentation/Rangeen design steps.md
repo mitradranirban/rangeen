@@ -36,7 +36,7 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-pip install ot-svg
+pip install opentypesvg
 
 pip install nanoemoji
 
@@ -52,7 +52,7 @@ $ fonts2svg -c 000088,800080,daa520 ttf/rangeen3.ttf ttf/rangeen2.ttf ttf/rangee
 ```
 Check the svg files created 
 
-![svg-A](images/svg-A)
+![svg-A](images/svg-A.png)
 
 ### step 5
 Add svg files to Fallback font to create OpenType-SVG font
@@ -61,9 +61,9 @@ $ addsvg ttf/SVGs ttf/Rangeen.ttf
 94 SVG glyphs were successfully added to Rangeen.ttf
 ```
 ### step 6
-Create an html file to test the font  
-
+Create an html file to test the font.
 Color Glyphs are displayed in Firefox 
+
 ![font-color-firefox](images/font-test-firefox.png)
 
 Fallback mechanism also works in Chrome
@@ -72,7 +72,7 @@ Fallback mechanism also works in Chrome
 
 ### step 7
 
-Add COLRv1 files to the font using nanoemoji (fails)
+Add COLRv1 files to the font using nanoemoji
 
 ```
 ja -C /media/artim/home/@home/artim/devel/rangeen/sources/ttf/build
