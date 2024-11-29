@@ -1,7 +1,7 @@
 # RANGEEN
 
 Experimental Color Font Created Using Open Source Tools only  
-see [Documentation](https://github.com/mitradranirban/rangeen/documentation)
+see [Documentation](https://github.com/mitradranirban/rangeen/blob/master/documentation/Rangeen%20design%20steps.md)
 
 ## Specimen
 
