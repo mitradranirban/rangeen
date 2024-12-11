@@ -1,0 +1,56 @@
+SplineFontDB: 3.2
+FontName: rangeen1f
+FullName: rangeen1f
+FamilyName: rangeen1
+Weight: Regular
+Copyright: Copyright (c) 2024 Dr Anirban Mitra
+UComments: "2024-11-25: Created with FontForge (http://fontforge.org)"
+FontLog: "Expand stroke Circular Major 5 Minor 5 angle 0 nib nib "
+Version: 0.001
+ItalicAngle: 0
+UnderlinePosition: -102
+UnderlineWidth: 51
+Ascent: 819
+Descent: 205
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 557 1747282856 10142422]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1732553524
+ModificationTime: 1733931820
+PfmFamily: 65
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 92
+VLineGap: 0
+OS2TypoAscent: 988
+OS2TypoAOffset: 0
+OS2TypoDescent: -226
+OS2TypoDOffset: 0
+OS2TypoLinegap: 92
+OS2WinAscent: 988
+OS2WinAOffset: 0
+OS2WinDescent: 226
+OS2WinDOffset: 0
+HheadAscent: 988
+HheadAOffset: 0
+HheadDescent: -226
+HheadDOffset: 0
+OS2Vendor: 'anir'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: Custom
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -128
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 30 10 4
+BeginPrivate: 0
+EndPrivate
+EndSplineFont

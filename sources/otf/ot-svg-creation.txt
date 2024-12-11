@@ -1,6 +1,0 @@
-
-$ fonts2svg -c 0000ff,ff0000,00ff00 otf/rangeen3.otf otf/rangeen2.otf otf/rangeen1.otf 
-53 SVG files saved.
-$ addsvg otf/SVGs otf/Rangeen.otf 
-53 SVG glyphs were successfully added to Rangeen.otf
-

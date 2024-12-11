@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="SHDW" name="SHADOW" minimum="-10" maximum="10" default="10"/>
+    <axis tag="FLAR" name="FLARE" minimum="10" maximum="30" default="10"/>
+  </axes>
+  <sources>
+    <source filename="RangeenSColr0.ttx.ufo"  familyname="Rangeen" stylename="RangeenSColr0">
+      <location>
+        <dimension name="SHADOW" xvalue="-10"/>
+        <dimension name="FLARE" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="RangeenColr0.ttx.ufo"  familyname="Rangeen" stylename="RangeenColr0">
+      <location>
+        <dimension name="SHADOW" xvalue="10"/>
+        <dimension name="FLARE" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="RangeenFColr0.ttx.ufo"  familyname="Untitled" stylename="RangeenFColr0">
+      <location>
+        <dimension name="SHADOW" xvalue="10"/>
+        <dimension name="FLARE" xvalue="30"/>
+      </location>
+    </source>
+  </sources>
+</designspace>

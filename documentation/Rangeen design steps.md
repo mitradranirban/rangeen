@@ -75,6 +75,7 @@ Fallback mechanism also works in Chrome
 Add COLRv1 files to the font using nanoemoji
 
 ```
+maximum_color ttf/rangeen.ttf
 ja -C /media/artim/home/@home/artim/devel/rangeen/sources/ttf/build
 ninja: Entering directory `/media/artim/home/@home/artim/devel/rangeen/sources/ttf/build'
 [194/196] /media/artim/home/@home/arti...utput_file MergeSource.glyf_colr_1.ttf
