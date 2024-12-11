@@ -20,6 +20,7 @@ cp sources/sfdir/rangeenf.ttf sources/ttf/F/
 cp sources/sfdir/rangeen1f.ttf sources/ttf/F/
 cp sources/sfdir/rangeen2.ttf sources/ttf/F/
 cp sources/sfdir/rangeen3.ttf sources/ttf/F/
+rm sources/sfdir/*.ttf
 
 source ot-svg/bin/activate
 fonts2svg -c 000088,800080,daa520 sources/ttf/R/rangeen3.ttf sources/ttf/R/rangeen2.ttf sources/ttf/R/rangeen1.ttf 

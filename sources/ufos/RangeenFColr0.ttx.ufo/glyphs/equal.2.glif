@@ -2,29 +2,6 @@
 <glyph name="equal.2" format="2">
   <advance width="502"/>
   <outline>
-    <contour>
-      <point x="85" y="367" type="qcurve"/>
-      <point x="433" y="367" type="line"/>
-      <point x="438" y="367"/>
-      <point x="438" y="372" type="qcurve"/>
-      <point x="438" y="377"/>
-      <point x="433" y="377" type="qcurve"/>
-      <point x="85" y="377" type="line"/>
-      <point x="80" y="377"/>
-      <point x="80" y="372" type="qcurve"/>
-      <point x="80" y="367"/>
-    </contour>
-    <contour>
-      <point x="85" y="467" type="qcurve"/>
-      <point x="433" y="467" type="line"/>
-      <point x="438" y="467"/>
-      <point x="438" y="472" type="qcurve"/>
-      <point x="438" y="477"/>
-      <point x="433" y="477" type="qcurve"/>
-      <point x="85" y="477" type="line"/>
-      <point x="80" y="477"/>
-      <point x="80" y="472" type="qcurve"/>
-      <point x="80" y="467"/>
-    </contour>
+    <component base="equal.0" xOffset="-50"/>
   </outline>
 </glyph>

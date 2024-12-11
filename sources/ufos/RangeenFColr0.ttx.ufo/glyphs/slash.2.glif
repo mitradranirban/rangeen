@@ -2,21 +2,6 @@
 <glyph name="slash.2" format="2">
   <advance width="386"/>
   <outline>
-    <contour>
-      <point x="85" y="102" type="qcurve"/>
-      <point x="88" y="102"/>
-      <point x="90" y="105" type="qcurve"/>
-      <point x="321" y="663" type="line"/>
-      <point x="321" y="664"/>
-      <point x="321" y="665" type="qcurve"/>
-      <point x="321" y="670"/>
-      <point x="316" y="670" type="qcurve"/>
-      <point x="313" y="670"/>
-      <point x="311" y="667" type="qcurve"/>
-      <point x="80" y="109" type="line"/>
-      <point x="80" y="108"/>
-      <point x="80" y="107" type="qcurve"/>
-      <point x="80" y="102"/>
-    </contour>
+    <component base="slash.0" xOffset="-50"/>
   </outline>
 </glyph>
