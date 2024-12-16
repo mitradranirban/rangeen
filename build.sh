@@ -51,5 +51,9 @@ mv RangeenFColr0.ttx sources/ttx/
 cd sources/ttx/
 extractufo -z *.ttx 
 mv *.ufoz ../ufos/
-
+cd ../ufos
+unzip -q -o '*.ufoz'
+fontmake Rangeen.designspace -o variable
+ttx variable_ttf/Rangeen-VF.ttf 
+echo "Modify Rangeen-VF.ttx to add CPAL and COLR table from ttx/RangeeenColr.ttx and regenerate Rangeen-VF.ttf"
 

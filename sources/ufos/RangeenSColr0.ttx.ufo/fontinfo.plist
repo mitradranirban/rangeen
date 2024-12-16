@@ -229,7 +229,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>FontForge 2.0 : RangeenS : 11-12-2024</string>
+        <string>FontForge 2.0 : RangeenS : 13-12-2024</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -241,7 +241,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>FontForge 2.0 : RangeenS : 11-12-2024</string>
+        <string>FontForge 2.0 : RangeenS : 13-12-2024</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -573,7 +573,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
       </dict>
     </array>
     <key>openTypeNameUniqueID</key>
-    <string>FontForge 2.0 : RangeenS : 11-12-2024</string>
+    <string>FontForge 2.0 : RangeenS : 13-12-2024</string>
     <key>openTypeNameVersion</key>
     <string>Version 0.01</string>
     <key>openTypeOS2CodePageRanges</key>

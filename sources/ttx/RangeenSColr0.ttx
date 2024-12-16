@@ -390,12 +390,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.01"/>
-    <checkSumAdjustment value="0xe027bf93"/>
+    <checkSumAdjustment value="0xe01fba75"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00001011"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Nov 25 14:59:42 2024"/>
-    <modified value="Wed Dec 11 17:07:18 2024"/>
+    <modified value="Fri Dec 13 05:34:13 2024"/>
     <xMin value="-267"/>
     <yMin value="-256"/>
     <xMax value="890"/>
@@ -39772,7 +39772,7 @@
       S
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      FontForge 2.0 : RangeenS : 11-12-2024
+      FontForge 2.0 : RangeenS : 13-12-2024
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
       RangeenS
@@ -39894,7 +39894,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       S
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      FontForge 2.0 : RangeenS : 11-12-2024
+      FontForge 2.0 : RangeenS : 13-12-2024
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       RangeenS

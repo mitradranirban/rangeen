@@ -5,7 +5,7 @@ see [Documentation](https://github.com/mitradranirban/rangeen/blob/master/docume
 
 Now extended to be a variable color font also.
 
-[Rangeen-VF](https://github.com/mitradranirban/rangeen/blob/master/documentation/images/rangeen-vf.webm)
+![Rangeen-VF](https://github.com/mitradranirban/rangeen/blob/master/documentation/images/rangeen-vf.webm)
 
 ## Specimen
 

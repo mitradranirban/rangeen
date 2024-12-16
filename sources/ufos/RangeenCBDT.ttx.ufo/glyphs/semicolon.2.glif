@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon.2" format="2">
+  <advance width="190"/>
+  <outline>
+    <component base="semicolon.0" xOffset="-50"/>
+  </outline>
+</glyph>

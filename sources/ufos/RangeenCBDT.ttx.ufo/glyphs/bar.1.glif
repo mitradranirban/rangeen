@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar.1" format="2">
+  <advance width="226"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="qcurve"/>
+      <point x="30" y="781" type="line"/>
+      <point x="30" y="786"/>
+      <point x="25" y="786" type="qcurve"/>
+      <point x="20" y="786"/>
+      <point x="20" y="781" type="qcurve"/>
+      <point x="20" y="0" type="line"/>
+      <point x="20" y="-5"/>
+      <point x="25" y="-5" type="qcurve"/>
+      <point x="30" y="-5"/>
+    </contour>
+  </outline>
+</glyph>

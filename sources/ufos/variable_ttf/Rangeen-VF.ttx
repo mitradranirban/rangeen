@@ -390,12 +390,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.001"/>
-    <checkSumAdjustment value="0x36c6ff37"/>
+    <checkSumAdjustment value="0x36befeab"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00001011"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Nov 25 14:59:42 2024"/>
-    <modified value="Wed Dec 11 17:09:14 2024"/>
+    <modified value="Fri Dec 13 05:34:54 2024"/>
     <xMin value="-217"/>
     <yMin value="-256"/>
     <xMax value="936"/>
@@ -39670,7 +39670,7 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      FontForge 2.0 : Rangeen : 11-12-2024
+      FontForge 2.0 : Rangeen : 13-12-2024
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Rangeen
@@ -39798,7 +39798,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      FontForge 2.0 : Rangeen : 11-12-2024
+      FontForge 2.0 : Rangeen : 13-12-2024
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Rangeen
@@ -43848,5 +43848,122 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <color index="2" value="#DAA520FF"/>
     </palette>
   </CPAL>
+
+  <FFTM>
+    <!-- FontForge's timestamp, font source creation and modification dates -->
+    <version value="1"/>
+    <FFTimeStamp value="Mon Jun 24 13:55:18 2024"/>
+    <sourceCreated value="Mon Nov 25 14:59:42 2024"/>
+    <sourceModified value="Thu Nov 28 07:00:07 2024"/>
+  </FFTM>
+
+  <GDEF>
+    <Version value="0x00010000"/>
+    <GlyphClassDef>
+      <ClassDef glyph="A" class="1"/>
+      <ClassDef glyph="B" class="1"/>
+      <ClassDef glyph="C" class="1"/>
+      <ClassDef glyph="D" class="1"/>
+      <ClassDef glyph="E" class="1"/>
+      <ClassDef glyph="F" class="1"/>
+      <ClassDef glyph="G" class="1"/>
+      <ClassDef glyph="H" class="1"/>
+      <ClassDef glyph="I" class="1"/>
+      <ClassDef glyph="J" class="1"/>
+      <ClassDef glyph="K" class="1"/>
+      <ClassDef glyph="L" class="1"/>
+      <ClassDef glyph="M" class="1"/>
+      <ClassDef glyph="N" class="1"/>
+      <ClassDef glyph="NameMe.127" class="1"/>
+      <ClassDef glyph="O" class="1"/>
+      <ClassDef glyph="P" class="1"/>
+      <ClassDef glyph="Q" class="1"/>
+      <ClassDef glyph="R" class="1"/>
+      <ClassDef glyph="S" class="1"/>
+      <ClassDef glyph="T" class="1"/>
+      <ClassDef glyph="U" class="1"/>
+      <ClassDef glyph="V" class="1"/>
+      <ClassDef glyph="W" class="1"/>
+      <ClassDef glyph="X" class="1"/>
+      <ClassDef glyph="Y" class="1"/>
+      <ClassDef glyph="Z" class="1"/>
+      <ClassDef glyph="a" class="1"/>
+      <ClassDef glyph="ampersand" class="1"/>
+      <ClassDef glyph="asciicircum" class="1"/>
+      <ClassDef glyph="asciitilde" class="1"/>
+      <ClassDef glyph="asterisk" class="1"/>
+      <ClassDef glyph="at" class="1"/>
+      <ClassDef glyph="b" class="1"/>
+      <ClassDef glyph="backslash" class="1"/>
+      <ClassDef glyph="bar" class="1"/>
+      <ClassDef glyph="braceleft" class="1"/>
+      <ClassDef glyph="braceright" class="1"/>
+      <ClassDef glyph="bracketleft" class="1"/>
+      <ClassDef glyph="bracketright" class="1"/>
+      <ClassDef glyph="c" class="1"/>
+      <ClassDef glyph="colon" class="1"/>
+      <ClassDef glyph="comma" class="1"/>
+      <ClassDef glyph="d" class="1"/>
+      <ClassDef glyph="dollar" class="1"/>
+      <ClassDef glyph="e" class="1"/>
+      <ClassDef glyph="eight" class="1"/>
+      <ClassDef glyph="equal" class="1"/>
+      <ClassDef glyph="exclam" class="1"/>
+      <ClassDef glyph="f" class="1"/>
+      <ClassDef glyph="five" class="1"/>
+      <ClassDef glyph="four" class="1"/>
+      <ClassDef glyph="g" class="1"/>
+      <ClassDef glyph="grave" class="1"/>
+      <ClassDef glyph="greater" class="1"/>
+      <ClassDef glyph="h" class="1"/>
+      <ClassDef glyph="hyphen" class="1"/>
+      <ClassDef glyph="i" class="1"/>
+      <ClassDef glyph="j" class="1"/>
+      <ClassDef glyph="k" class="1"/>
+      <ClassDef glyph="l" class="1"/>
+      <ClassDef glyph="less" class="1"/>
+      <ClassDef glyph="m" class="1"/>
+      <ClassDef glyph="n" class="1"/>
+      <ClassDef glyph="nine" class="1"/>
+      <ClassDef glyph="numbersign" class="1"/>
+      <ClassDef glyph="o" class="1"/>
+      <ClassDef glyph="one" class="1"/>
+      <ClassDef glyph="p" class="1"/>
+      <ClassDef glyph="parenleft" class="1"/>
+      <ClassDef glyph="parenright" class="1"/>
+      <ClassDef glyph="percent" class="1"/>
+      <ClassDef glyph="period" class="1"/>
+      <ClassDef glyph="plus" class="1"/>
+      <ClassDef glyph="q" class="1"/>
+      <ClassDef glyph="question" class="1"/>
+      <ClassDef glyph="quotedbl" class="1"/>
+      <ClassDef glyph="quotesingle" class="1"/>
+      <ClassDef glyph="r" class="1"/>
+      <ClassDef glyph="s" class="1"/>
+      <ClassDef glyph="semicolon" class="1"/>
+      <ClassDef glyph="seven" class="1"/>
+      <ClassDef glyph="six" class="1"/>
+      <ClassDef glyph="slash" class="1"/>
+      <ClassDef glyph="space" class="1"/>
+      <ClassDef glyph="t" class="1"/>
+      <ClassDef glyph="three" class="1"/>
+      <ClassDef glyph="two" class="1"/>
+      <ClassDef glyph="u" class="1"/>
+      <ClassDef glyph="underscore" class="1"/>
+      <ClassDef glyph="v" class="1"/>
+      <ClassDef glyph="w" class="1"/>
+      <ClassDef glyph="x" class="1"/>
+      <ClassDef glyph="y" class="1"/>
+      <ClassDef glyph="z" class="1"/>
+      <ClassDef glyph="zero" class="1"/>
+    </GlyphClassDef>
+    <LigCaretList>
+      <Coverage>
+      </Coverage>
+      <!-- LigGlyphCount=0 -->
+    </LigCaretList>
+    <MarkAttachClassDef>
+    </MarkAttachClassDef>
+  </GDEF>
 
 </ttFont>
