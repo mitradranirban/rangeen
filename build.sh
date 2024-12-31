@@ -48,12 +48,18 @@ maximum_color --colr_version 0 sources/ttf/F/rangeenf.ttf
 ttx -x SVG -o RangeenFColr0.ttx -v build/rangeenf.keep_glyph_names.added_glyf_colr_0.ttf
 ttx -d fonts/colr/ RangeenFColr0.ttx
 mv RangeenFColr0.ttx sources/ttx/
-cd sources/ttx/
-extractufo -z *.ttx 
-mv *.ufoz ../ufos/
-cd ../ufos
+cd fonts/colr
+extractufo -z *.ttf
+mv *.ufoz ../../sources/ufos/
+cd ../../sources/ufos
 unzip -q -o '*.ufoz'
-fontmake Rangeen.designspace -o variable
-ttx variable_ttf/Rangeen-VF.ttf 
-echo "Modify Rangeen-VF.ttx to add CPAL and COLR table from ttx/RangeeenColr.ttx and regenerate Rangeen-VF.ttf"
+cd ../..
+fontmake -m sources/ufos/Rangeen.designspace -a -o variable
+ttx -d sources/ttx variable_ttf/Rangeen-VF.ttf 
+ttx -t CPAL -t COLR -d sources/ttx -o CPAL-COLR.ttx build/rangeen.keep_glyph_names.added_glyf_colr_0.ttf
+xmlmerge sources/ttx/Rangeen-VF.ttx sources/ttx/CPAL-COLR.ttx -o sources/ttx/Rangeen[FLAR,SHDW].ttx
+mkdir fonts/variable 
+ttx -d fonts/variable sources/ttx/Rangeen[FLAR,SHDW].ttx
+ttx -d fonts/woff2/ --flavor woff2 sources/ttx/Rangeen[FLAR,SHDW].ttx
 
+echo "Done! Please check the fonts folder"

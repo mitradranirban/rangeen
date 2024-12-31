@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl.0" format="2">
+  <advance width="246"/>
+  <outline>
+    <contour>
+      <point x="0" y="737" type="qcurve"/>
+      <point x="0" y="736"/>
+      <point x="0" y="736" type="qcurve"/>
+      <point x="3" y="670" type="line"/>
+      <point x="3" y="660"/>
+      <point x="10" y="653" type="qcurve"/>
+      <point x="18" y="646"/>
+      <point x="28" y="646" type="qcurve"/>
+      <point x="38" y="646"/>
+      <point x="46" y="654" type="qcurve"/>
+      <point x="53" y="661"/>
+      <point x="53" y="671" type="qcurve"/>
+      <point x="53" y="672"/>
+      <point x="53" y="672" type="qcurve"/>
+      <point x="50" y="738" type="line"/>
+      <point x="50" y="748"/>
+      <point x="43" y="755" type="qcurve"/>
+      <point x="35" y="762"/>
+      <point x="25" y="762" type="qcurve"/>
+      <point x="15" y="762"/>
+      <point x="8" y="755" type="qcurve"/>
+      <point x="0" y="747"/>
+    </contour>
+    <contour>
+      <point x="90" y="740" type="qcurve"/>
+      <point x="90" y="739"/>
+      <point x="90" y="739" type="qcurve"/>
+      <point x="93" y="673" type="line"/>
+      <point x="93" y="663"/>
+      <point x="100" y="656" type="qcurve"/>
+      <point x="108" y="649"/>
+      <point x="118" y="649" type="qcurve"/>
+      <point x="128" y="649"/>
+      <point x="136" y="657" type="qcurve"/>
+      <point x="143" y="664"/>
+      <point x="143" y="674" type="qcurve"/>
+      <point x="143" y="675"/>
+      <point x="143" y="675" type="qcurve"/>
+      <point x="140" y="741" type="line"/>
+      <point x="140" y="751"/>
+      <point x="133" y="758" type="qcurve"/>
+      <point x="125" y="765"/>
+      <point x="115" y="765" type="qcurve"/>
+      <point x="105" y="765"/>
+      <point x="98" y="758" type="qcurve"/>
+      <point x="90" y="750"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>dbfc0699ec6dced4d69fb4f6b88acb7f85f11f18c647891b52215edcf48c867a64b339cfceb9050d673cc828a06c4b8fc7206cf67717eec6e06508d686b34269</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

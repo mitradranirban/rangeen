@@ -96,7 +96,34 @@ build svg_dump/00004.svg svg_dump/00005.svg svg_dump/00006.svg $
     svg_dump/00088.svg svg_dump/00089.svg svg_dump/00090.svg $
     svg_dump/00091.svg svg_dump/00092.svg svg_dump/00093.svg $
     svg_dump/00094.svg svg_dump/00095.svg svg_dump/00096.svg $
-    svg_dump/00097.svg: extract_svgs_from_otsvg rangeenf.keep_glyph_names.ttf
+    svg_dump/00097.svg svg_dump/00098.svg svg_dump/00099.svg $
+    svg_dump/00100.svg svg_dump/00101.svg svg_dump/00102.svg $
+    svg_dump/00103.svg svg_dump/00104.svg svg_dump/00105.svg $
+    svg_dump/00106.svg svg_dump/00107.svg svg_dump/00108.svg $
+    svg_dump/00109.svg svg_dump/00110.svg svg_dump/00111.svg $
+    svg_dump/00112.svg svg_dump/00113.svg svg_dump/00114.svg $
+    svg_dump/00115.svg svg_dump/00116.svg svg_dump/00117.svg $
+    svg_dump/00118.svg svg_dump/00119.svg svg_dump/00120.svg $
+    svg_dump/00121.svg svg_dump/00122.svg svg_dump/00123.svg $
+    svg_dump/00124.svg svg_dump/00125.svg svg_dump/00126.svg $
+    svg_dump/00127.svg svg_dump/00128.svg svg_dump/00129.svg $
+    svg_dump/00130.svg svg_dump/00131.svg svg_dump/00132.svg $
+    svg_dump/00133.svg svg_dump/00134.svg svg_dump/00135.svg $
+    svg_dump/00136.svg svg_dump/00137.svg svg_dump/00138.svg $
+    svg_dump/00139.svg svg_dump/00140.svg svg_dump/00141.svg $
+    svg_dump/00142.svg svg_dump/00143.svg svg_dump/00144.svg $
+    svg_dump/00145.svg svg_dump/00146.svg svg_dump/00147.svg $
+    svg_dump/00148.svg svg_dump/00149.svg svg_dump/00150.svg $
+    svg_dump/00151.svg svg_dump/00152.svg svg_dump/00153.svg $
+    svg_dump/00154.svg svg_dump/00155.svg svg_dump/00156.svg $
+    svg_dump/00157.svg svg_dump/00158.svg svg_dump/00159.svg $
+    svg_dump/00160.svg svg_dump/00161.svg svg_dump/00162.svg $
+    svg_dump/00163.svg svg_dump/00164.svg svg_dump/00165.svg $
+    svg_dump/00166.svg svg_dump/00167.svg svg_dump/00168.svg $
+    svg_dump/00169.svg svg_dump/00170.svg svg_dump/00171.svg $
+    svg_dump/00172.svg svg_dump/00173.svg svg_dump/00174.svg $
+    svg_dump/00175.svg svg_dump/00176.svg svg_dump/00177.svg: $
+    extract_svgs_from_otsvg rangeenf.keep_glyph_names.ttf
 
 build picosvg/00004.svg: picosvg svg_dump/00004.svg
 build picosvg/00005.svg: picosvg svg_dump/00005.svg
@@ -192,6 +219,86 @@ build picosvg/00094.svg: picosvg svg_dump/00094.svg
 build picosvg/00095.svg: picosvg svg_dump/00095.svg
 build picosvg/00096.svg: picosvg svg_dump/00096.svg
 build picosvg/00097.svg: picosvg svg_dump/00097.svg
+build picosvg/00098.svg: picosvg svg_dump/00098.svg
+build picosvg/00099.svg: picosvg svg_dump/00099.svg
+build picosvg/00100.svg: picosvg svg_dump/00100.svg
+build picosvg/00101.svg: picosvg svg_dump/00101.svg
+build picosvg/00102.svg: picosvg svg_dump/00102.svg
+build picosvg/00103.svg: picosvg svg_dump/00103.svg
+build picosvg/00104.svg: picosvg svg_dump/00104.svg
+build picosvg/00105.svg: picosvg svg_dump/00105.svg
+build picosvg/00106.svg: picosvg svg_dump/00106.svg
+build picosvg/00107.svg: picosvg svg_dump/00107.svg
+build picosvg/00108.svg: picosvg svg_dump/00108.svg
+build picosvg/00109.svg: picosvg svg_dump/00109.svg
+build picosvg/00110.svg: picosvg svg_dump/00110.svg
+build picosvg/00111.svg: picosvg svg_dump/00111.svg
+build picosvg/00112.svg: picosvg svg_dump/00112.svg
+build picosvg/00113.svg: picosvg svg_dump/00113.svg
+build picosvg/00114.svg: picosvg svg_dump/00114.svg
+build picosvg/00115.svg: picosvg svg_dump/00115.svg
+build picosvg/00116.svg: picosvg svg_dump/00116.svg
+build picosvg/00117.svg: picosvg svg_dump/00117.svg
+build picosvg/00118.svg: picosvg svg_dump/00118.svg
+build picosvg/00119.svg: picosvg svg_dump/00119.svg
+build picosvg/00120.svg: picosvg svg_dump/00120.svg
+build picosvg/00121.svg: picosvg svg_dump/00121.svg
+build picosvg/00122.svg: picosvg svg_dump/00122.svg
+build picosvg/00123.svg: picosvg svg_dump/00123.svg
+build picosvg/00124.svg: picosvg svg_dump/00124.svg
+build picosvg/00125.svg: picosvg svg_dump/00125.svg
+build picosvg/00126.svg: picosvg svg_dump/00126.svg
+build picosvg/00127.svg: picosvg svg_dump/00127.svg
+build picosvg/00128.svg: picosvg svg_dump/00128.svg
+build picosvg/00129.svg: picosvg svg_dump/00129.svg
+build picosvg/00130.svg: picosvg svg_dump/00130.svg
+build picosvg/00131.svg: picosvg svg_dump/00131.svg
+build picosvg/00132.svg: picosvg svg_dump/00132.svg
+build picosvg/00133.svg: picosvg svg_dump/00133.svg
+build picosvg/00134.svg: picosvg svg_dump/00134.svg
+build picosvg/00135.svg: picosvg svg_dump/00135.svg
+build picosvg/00136.svg: picosvg svg_dump/00136.svg
+build picosvg/00137.svg: picosvg svg_dump/00137.svg
+build picosvg/00138.svg: picosvg svg_dump/00138.svg
+build picosvg/00139.svg: picosvg svg_dump/00139.svg
+build picosvg/00140.svg: picosvg svg_dump/00140.svg
+build picosvg/00141.svg: picosvg svg_dump/00141.svg
+build picosvg/00142.svg: picosvg svg_dump/00142.svg
+build picosvg/00143.svg: picosvg svg_dump/00143.svg
+build picosvg/00144.svg: picosvg svg_dump/00144.svg
+build picosvg/00145.svg: picosvg svg_dump/00145.svg
+build picosvg/00146.svg: picosvg svg_dump/00146.svg
+build picosvg/00147.svg: picosvg svg_dump/00147.svg
+build picosvg/00148.svg: picosvg svg_dump/00148.svg
+build picosvg/00149.svg: picosvg svg_dump/00149.svg
+build picosvg/00150.svg: picosvg svg_dump/00150.svg
+build picosvg/00151.svg: picosvg svg_dump/00151.svg
+build picosvg/00152.svg: picosvg svg_dump/00152.svg
+build picosvg/00153.svg: picosvg svg_dump/00153.svg
+build picosvg/00154.svg: picosvg svg_dump/00154.svg
+build picosvg/00155.svg: picosvg svg_dump/00155.svg
+build picosvg/00156.svg: picosvg svg_dump/00156.svg
+build picosvg/00157.svg: picosvg svg_dump/00157.svg
+build picosvg/00158.svg: picosvg svg_dump/00158.svg
+build picosvg/00159.svg: picosvg svg_dump/00159.svg
+build picosvg/00160.svg: picosvg svg_dump/00160.svg
+build picosvg/00161.svg: picosvg svg_dump/00161.svg
+build picosvg/00162.svg: picosvg svg_dump/00162.svg
+build picosvg/00163.svg: picosvg svg_dump/00163.svg
+build picosvg/00164.svg: picosvg svg_dump/00164.svg
+build picosvg/00165.svg: picosvg svg_dump/00165.svg
+build picosvg/00166.svg: picosvg svg_dump/00166.svg
+build picosvg/00167.svg: picosvg svg_dump/00167.svg
+build picosvg/00168.svg: picosvg svg_dump/00168.svg
+build picosvg/00169.svg: picosvg svg_dump/00169.svg
+build picosvg/00170.svg: picosvg svg_dump/00170.svg
+build picosvg/00171.svg: picosvg svg_dump/00171.svg
+build picosvg/00172.svg: picosvg svg_dump/00172.svg
+build picosvg/00173.svg: picosvg svg_dump/00173.svg
+build picosvg/00174.svg: picosvg svg_dump/00174.svg
+build picosvg/00175.svg: picosvg svg_dump/00175.svg
+build picosvg/00176.svg: picosvg svg_dump/00176.svg
+build picosvg/00177.svg: picosvg svg_dump/00177.svg
 
 build picosvg/00004.parts.json: write_part_file picosvg/00004.svg
   reuse_tolerance = 0.1
@@ -475,6 +582,246 @@ build picosvg/00096.parts.json: write_part_file picosvg/00096.svg
 build picosvg/00097.parts.json: write_part_file picosvg/00097.svg
   reuse_tolerance = 0.1
   wh = 1200
+build picosvg/00098.parts.json: write_part_file picosvg/00098.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00099.parts.json: write_part_file picosvg/00099.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00100.parts.json: write_part_file picosvg/00100.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00101.parts.json: write_part_file picosvg/00101.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00102.parts.json: write_part_file picosvg/00102.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00103.parts.json: write_part_file picosvg/00103.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00104.parts.json: write_part_file picosvg/00104.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00105.parts.json: write_part_file picosvg/00105.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00106.parts.json: write_part_file picosvg/00106.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00107.parts.json: write_part_file picosvg/00107.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00108.parts.json: write_part_file picosvg/00108.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00109.parts.json: write_part_file picosvg/00109.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00110.parts.json: write_part_file picosvg/00110.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00111.parts.json: write_part_file picosvg/00111.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00112.parts.json: write_part_file picosvg/00112.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00113.parts.json: write_part_file picosvg/00113.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00114.parts.json: write_part_file picosvg/00114.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00115.parts.json: write_part_file picosvg/00115.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00116.parts.json: write_part_file picosvg/00116.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00117.parts.json: write_part_file picosvg/00117.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00118.parts.json: write_part_file picosvg/00118.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00119.parts.json: write_part_file picosvg/00119.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00120.parts.json: write_part_file picosvg/00120.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00121.parts.json: write_part_file picosvg/00121.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00122.parts.json: write_part_file picosvg/00122.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00123.parts.json: write_part_file picosvg/00123.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00124.parts.json: write_part_file picosvg/00124.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00125.parts.json: write_part_file picosvg/00125.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00126.parts.json: write_part_file picosvg/00126.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00127.parts.json: write_part_file picosvg/00127.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00128.parts.json: write_part_file picosvg/00128.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00129.parts.json: write_part_file picosvg/00129.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00130.parts.json: write_part_file picosvg/00130.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00131.parts.json: write_part_file picosvg/00131.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00132.parts.json: write_part_file picosvg/00132.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00133.parts.json: write_part_file picosvg/00133.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00134.parts.json: write_part_file picosvg/00134.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00135.parts.json: write_part_file picosvg/00135.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00136.parts.json: write_part_file picosvg/00136.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00137.parts.json: write_part_file picosvg/00137.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00138.parts.json: write_part_file picosvg/00138.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00139.parts.json: write_part_file picosvg/00139.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00140.parts.json: write_part_file picosvg/00140.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00141.parts.json: write_part_file picosvg/00141.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00142.parts.json: write_part_file picosvg/00142.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00143.parts.json: write_part_file picosvg/00143.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00144.parts.json: write_part_file picosvg/00144.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00145.parts.json: write_part_file picosvg/00145.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00146.parts.json: write_part_file picosvg/00146.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00147.parts.json: write_part_file picosvg/00147.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00148.parts.json: write_part_file picosvg/00148.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00149.parts.json: write_part_file picosvg/00149.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00150.parts.json: write_part_file picosvg/00150.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00151.parts.json: write_part_file picosvg/00151.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00152.parts.json: write_part_file picosvg/00152.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00153.parts.json: write_part_file picosvg/00153.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00154.parts.json: write_part_file picosvg/00154.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00155.parts.json: write_part_file picosvg/00155.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00156.parts.json: write_part_file picosvg/00156.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00157.parts.json: write_part_file picosvg/00157.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00158.parts.json: write_part_file picosvg/00158.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00159.parts.json: write_part_file picosvg/00159.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00160.parts.json: write_part_file picosvg/00160.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00161.parts.json: write_part_file picosvg/00161.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00162.parts.json: write_part_file picosvg/00162.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00163.parts.json: write_part_file picosvg/00163.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00164.parts.json: write_part_file picosvg/00164.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00165.parts.json: write_part_file picosvg/00165.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00166.parts.json: write_part_file picosvg/00166.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00167.parts.json: write_part_file picosvg/00167.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00168.parts.json: write_part_file picosvg/00168.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00169.parts.json: write_part_file picosvg/00169.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00170.parts.json: write_part_file picosvg/00170.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00171.parts.json: write_part_file picosvg/00171.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00172.parts.json: write_part_file picosvg/00172.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00173.parts.json: write_part_file picosvg/00173.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00174.parts.json: write_part_file picosvg/00174.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00175.parts.json: write_part_file picosvg/00175.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00176.parts.json: write_part_file picosvg/00176.svg
+  reuse_tolerance = 0.1
+  wh = 1200
+build picosvg/00177.parts.json: write_part_file picosvg/00177.svg
+  reuse_tolerance = 0.1
+  wh = 1200
 build parts-merged.json: write_combined_part_files picosvg/00004.parts.json $
     picosvg/00005.parts.json picosvg/00006.parts.json $
     picosvg/00007.parts.json picosvg/00008.parts.json $
@@ -521,7 +868,47 @@ build parts-merged.json: write_combined_part_files picosvg/00004.parts.json $
     picosvg/00089.parts.json picosvg/00090.parts.json $
     picosvg/00091.parts.json picosvg/00092.parts.json $
     picosvg/00093.parts.json picosvg/00094.parts.json $
-    picosvg/00095.parts.json picosvg/00096.parts.json picosvg/00097.parts.json
+    picosvg/00095.parts.json picosvg/00096.parts.json $
+    picosvg/00097.parts.json picosvg/00098.parts.json $
+    picosvg/00099.parts.json picosvg/00100.parts.json $
+    picosvg/00101.parts.json picosvg/00102.parts.json $
+    picosvg/00103.parts.json picosvg/00104.parts.json $
+    picosvg/00105.parts.json picosvg/00106.parts.json $
+    picosvg/00107.parts.json picosvg/00108.parts.json $
+    picosvg/00109.parts.json picosvg/00110.parts.json $
+    picosvg/00111.parts.json picosvg/00112.parts.json $
+    picosvg/00113.parts.json picosvg/00114.parts.json $
+    picosvg/00115.parts.json picosvg/00116.parts.json $
+    picosvg/00117.parts.json picosvg/00118.parts.json $
+    picosvg/00119.parts.json picosvg/00120.parts.json $
+    picosvg/00121.parts.json picosvg/00122.parts.json $
+    picosvg/00123.parts.json picosvg/00124.parts.json $
+    picosvg/00125.parts.json picosvg/00126.parts.json $
+    picosvg/00127.parts.json picosvg/00128.parts.json $
+    picosvg/00129.parts.json picosvg/00130.parts.json $
+    picosvg/00131.parts.json picosvg/00132.parts.json $
+    picosvg/00133.parts.json picosvg/00134.parts.json $
+    picosvg/00135.parts.json picosvg/00136.parts.json $
+    picosvg/00137.parts.json picosvg/00138.parts.json $
+    picosvg/00139.parts.json picosvg/00140.parts.json $
+    picosvg/00141.parts.json picosvg/00142.parts.json $
+    picosvg/00143.parts.json picosvg/00144.parts.json $
+    picosvg/00145.parts.json picosvg/00146.parts.json $
+    picosvg/00147.parts.json picosvg/00148.parts.json $
+    picosvg/00149.parts.json picosvg/00150.parts.json $
+    picosvg/00151.parts.json picosvg/00152.parts.json $
+    picosvg/00153.parts.json picosvg/00154.parts.json $
+    picosvg/00155.parts.json picosvg/00156.parts.json $
+    picosvg/00157.parts.json picosvg/00158.parts.json $
+    picosvg/00159.parts.json picosvg/00160.parts.json $
+    picosvg/00161.parts.json picosvg/00162.parts.json $
+    picosvg/00163.parts.json picosvg/00164.parts.json $
+    picosvg/00165.parts.json picosvg/00166.parts.json $
+    picosvg/00167.parts.json picosvg/00168.parts.json $
+    picosvg/00169.parts.json picosvg/00170.parts.json $
+    picosvg/00171.parts.json picosvg/00172.parts.json $
+    picosvg/00173.parts.json picosvg/00174.parts.json $
+    picosvg/00175.parts.json picosvg/00176.parts.json picosvg/00177.parts.json
 build COLR_0.glyphmap: write_glyphmap_for_glyph_svgs picosvg/00004.svg $
     picosvg/00005.svg picosvg/00006.svg picosvg/00007.svg picosvg/00008.svg $
     picosvg/00009.svg picosvg/00010.svg picosvg/00011.svg picosvg/00012.svg $
@@ -546,7 +933,27 @@ build COLR_0.glyphmap: write_glyphmap_for_glyph_svgs picosvg/00004.svg $
     picosvg/00085.svg picosvg/00086.svg picosvg/00087.svg picosvg/00088.svg $
     picosvg/00089.svg picosvg/00090.svg picosvg/00091.svg picosvg/00092.svg $
     picosvg/00093.svg picosvg/00094.svg picosvg/00095.svg picosvg/00096.svg $
-    picosvg/00097.svg rangeenf.keep_glyph_names.ttf
+    picosvg/00097.svg picosvg/00098.svg picosvg/00099.svg picosvg/00100.svg $
+    picosvg/00101.svg picosvg/00102.svg picosvg/00103.svg picosvg/00104.svg $
+    picosvg/00105.svg picosvg/00106.svg picosvg/00107.svg picosvg/00108.svg $
+    picosvg/00109.svg picosvg/00110.svg picosvg/00111.svg picosvg/00112.svg $
+    picosvg/00113.svg picosvg/00114.svg picosvg/00115.svg picosvg/00116.svg $
+    picosvg/00117.svg picosvg/00118.svg picosvg/00119.svg picosvg/00120.svg $
+    picosvg/00121.svg picosvg/00122.svg picosvg/00123.svg picosvg/00124.svg $
+    picosvg/00125.svg picosvg/00126.svg picosvg/00127.svg picosvg/00128.svg $
+    picosvg/00129.svg picosvg/00130.svg picosvg/00131.svg picosvg/00132.svg $
+    picosvg/00133.svg picosvg/00134.svg picosvg/00135.svg picosvg/00136.svg $
+    picosvg/00137.svg picosvg/00138.svg picosvg/00139.svg picosvg/00140.svg $
+    picosvg/00141.svg picosvg/00142.svg picosvg/00143.svg picosvg/00144.svg $
+    picosvg/00145.svg picosvg/00146.svg picosvg/00147.svg picosvg/00148.svg $
+    picosvg/00149.svg picosvg/00150.svg picosvg/00151.svg picosvg/00152.svg $
+    picosvg/00153.svg picosvg/00154.svg picosvg/00155.svg picosvg/00156.svg $
+    picosvg/00157.svg picosvg/00158.svg picosvg/00159.svg picosvg/00160.svg $
+    picosvg/00161.svg picosvg/00162.svg picosvg/00163.svg picosvg/00164.svg $
+    picosvg/00165.svg picosvg/00166.svg picosvg/00167.svg picosvg/00168.svg $
+    picosvg/00169.svg picosvg/00170.svg picosvg/00171.svg picosvg/00172.svg $
+    picosvg/00173.svg picosvg/00174.svg picosvg/00175.svg picosvg/00176.svg $
+    picosvg/00177.svg rangeenf.keep_glyph_names.ttf
 
 build COLR_0.toml: write_config_for_mergeable rangeenf.keep_glyph_names.ttf
   color_format = glyf_colr_0

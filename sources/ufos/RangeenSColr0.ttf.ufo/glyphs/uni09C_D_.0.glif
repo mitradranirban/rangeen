@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni09CD.0" format="2">
+  <outline>
+    <contour>
+      <point x="-149" y="-189" type="line"/>
+      <point x="-149" y="-129" type="line"/>
+      <point x="-182" y="-75" type="line"/>
+      <point x="-184" y="-67"/>
+      <point x="-200" y="-54" type="qcurve"/>
+      <point x="-260" y="-54" type="line"/>
+      <point x="-260" y="-114" type="line"/>
+      <point x="-244" y="-127"/>
+      <point x="-242" y="-135" type="qcurve"/>
+      <point x="-209" y="-189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-149-189l-149-129l-182-75o-184-67q-200-54l-260-54l-260-114o-244-127q-242-135l-209-189|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

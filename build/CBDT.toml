@@ -3,8 +3,8 @@ output_file = "COLR.ttf"
 color_format = "cbdt"
 upem = 1024
 width = 0  # from input width
-ascender = 819
-descender = -205
+ascender = 1257
+descender = -254
 keep_glyph_names = true
 
 fea_file = ""

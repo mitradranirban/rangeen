@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="grave.0" format="2">
+  <advance width="277"/>
+  <outline>
+    <contour>
+      <point x="58" y="567" type="qcurve"/>
+      <point x="58" y="557"/>
+      <point x="65" y="549" type="qcurve"/>
+      <point x="219" y="376" type="line"/>
+      <point x="227" y="367"/>
+      <point x="239" y="367" type="qcurve"/>
+      <point x="250" y="367"/>
+      <point x="258" y="375" type="qcurve"/>
+      <point x="265" y="383"/>
+      <point x="265" y="393" type="qcurve"/>
+      <point x="265" y="403"/>
+      <point x="258" y="411" type="qcurve"/>
+      <point x="104" y="584" type="line"/>
+      <point x="96" y="593"/>
+      <point x="84" y="593" type="qcurve"/>
+      <point x="73" y="593"/>
+      <point x="66" y="585" type="qcurve"/>
+      <point x="58" y="577"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>59e15dc9138f78f220c3cca695eb9475090a903bff469c471e0fc8233b6dd18f4fd52c23b935879c1899a9d86a9a5fb12ac3da085c2798bfd0fa3388872f3d00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -19,5 +19,5 @@ This license is available with a FAQ [here](https://openfontlicense.org)
 ## Repository Layout
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository).
-## Download 
+## Download
 From our [website](https://fonts.atipra.in/rangeen.html) 

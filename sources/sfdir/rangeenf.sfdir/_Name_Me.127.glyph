@@ -1,5 +1,5 @@
 StartChar: NameMe.127
-Encoding: 127 -1 96
+Encoding: 65536 -1 96
 Width: 522
 Flags: HW
 LayerCount: 2

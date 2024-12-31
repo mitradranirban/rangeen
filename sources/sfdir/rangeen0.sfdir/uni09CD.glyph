@@ -1,0 +1,12 @@
+StartChar: uni09CD
+Encoding: 2509 2509 175
+Width: 0
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+-180 -84 m 0
+ -174.84158018 -87.9718630392 -163.931576561 -95.3827604813 -162 -105 c 0
+ -129 -159 l 1025
+EndSplineSet
+EndChar

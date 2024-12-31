@@ -178,13 +178,27 @@ Load base font (rangeen2.ttf)
 
 Adjust color and gradient, copy and paste to all glyphs, or adjust individually in each glyph
 
-Save font 
+Save font
 
 ### Step 11
-using round tripping through ttx tool, remove SVG tables from CBDT and CPAL/COLR fonts 
+using round tripping through ttx tool, remove SVG tables from CBDT and CPAL/COLR fonts.
 
-### Step 12 
-Compress font to woff2 format for use as web font 
+### Step 12
+Compress font to woff2 format for use as web font
+
+### Step 13
+Create Variable Color Font by 
+
+A) forming 3 sets of color font with variable position of shadow and flare layer by triplicating above process.
+
+B)converting fonts to ufo format.
+
+C) Create a Designspace file with two custom variable axes, Shadow(SHDW) and Flare(FLAR).
+
+D) Create Variable font using fontmake and convert it to ttx xml. 
+
+E) Add COLR(v0) and CPAL tables from static font to variable ttx and regenerate variable COLR font. 
+
 
 
 

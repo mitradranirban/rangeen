@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="percent.2" format="2">
-  <advance width="556"/>
-  <outline>
-    <component base="percent.0" xOffset="-50"/>
-  </outline>
-</glyph>

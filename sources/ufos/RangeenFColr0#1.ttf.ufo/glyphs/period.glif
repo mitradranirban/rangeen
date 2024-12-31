@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="154"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="86" y="51"/>
+      <point x="68" y="51"/>
+      <point x="55" y="38"/>
+      <point x="55" y="20"/>
+      <point x="68" y="7"/>
+      <point x="86" y="7"/>
+      <point x="99" y="20"/>
+      <point x="99" y="38"/>
+    </contour>
+    <contour>
+      <point x="88" y="2"/>
+      <point x="66" y="2"/>
+      <point x="50" y="18"/>
+      <point x="50" y="40"/>
+      <point x="66" y="56"/>
+      <point x="88" y="56"/>
+      <point x="104" y="40"/>
+      <point x="104" y="18"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w154o86+51o68+51o55+38o55+20o68+7o86+7o99+20o99+38|o88+2o66+2o50+18o50+40o66+56o88+56o104+40o104+18|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
